@@ -85,7 +85,9 @@ public class Card {
      *         and point value of the card.
      */
     @Override
-    public String toString() {
+    public String toString()
+    {
+        return "[" + this.rank + "]" + "of" + "[" + this.suit + "]" + "(Point Value = [" + this.pointValue + "])";
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 
     }
